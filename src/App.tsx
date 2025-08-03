@@ -1,7 +1,10 @@
+import Dashboard from "./pages/Dashboard/Dashboard"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div style={{ height: "100vh", width: "100vw" }}>
+      <Dashboard />
+    </div>
   )
 }
 
